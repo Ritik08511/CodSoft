@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1050px) {
+  .top-section {
+    height: 60vh;
+    background-size: 100% 60vh;
+  }
+
+  .cards-section {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    margin: 40px 0;
+  }
+
+  .contact-about-container {
+    flex-direction: column;
+  }
+
+  .contact-heading,
+  .about-heading {
+    font-size: 3vw;
+  }
+
+  .contact-about-container p {
+    font-size: 2vw;
+  }
+  .footer-text {
+    font-size: 3vw;
+  }
+}

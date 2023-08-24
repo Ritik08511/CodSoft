@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Top Section */
+.top-section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: url("../assets/images/main.png");
+  background-repeat: no-repeat;
+}
+
+.top-section-text {
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.intro-heading {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 4vw;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.inner-intro-heading {
+  font-size: 1.5vw;
+}
+
+.full-stack-dev {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 4vw;
+  color: #ffffff;
+}
+
+/* Work i can do section */
+.work-i-can-do {
+  background: #161619;
+  text-align: center;
+  padding: 80px;
+}
+
+.work-i-can-do-text {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 2vw;
+  letter-spacing: 2px;
+}
+
+.you-text {
+  font-size: 3.5vw;
+}
+
+/* Cards Section */
+.cards-section {
+  background: #ffffff;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 40px;
+}
+
+.card1-heading,
+.card2-heading,
+.card3-heading {
+  font-family: "Roboto";
+  font-size: 1.5vw;
+  color: #000000;
+  padding: 20px 20px 10px 10px;
+}
+
+.cards-section p {
+  padding: 20px 20px 10px 10px;
+}
+
+.contact-about-container {
+  display: flex;
+}
+.contact-about-container p {
+  font-family: "Roboto";
+  font-size: 0.9vw;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.contact {
+  background: #515603;
+  padding: 40px;
+}
+
+.about {
+  background: #722300;
+  padding: 40px;
+}
+
+.contact-heading,
+.about-heading {
+  font-family: "Roboto";
+  font-size: 2vw;
+  color: #ffffff;
+  letter-spacing: 2px;
+  padding: 20px 10px;
+}
+/* Footer */
+.footer-section {
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.footer-text {
+  font-family: "Roboto";
+  font-size: 2.2vw;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
